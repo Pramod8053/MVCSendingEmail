@@ -23,7 +23,7 @@ namespace MVCSendingEmail.Controllers
                 {
                     var senderEmail = new MailAddress("pbehera817@gmail.com", "Jamil");
                     var receiverEmail = new MailAddress(receiver, "Receiver");
-                    var password = "bdapb5182q";
+                    var password = "1234@123";
                     var sub = subject;
                     var body = message;
                     var smtp = new SmtpClient
